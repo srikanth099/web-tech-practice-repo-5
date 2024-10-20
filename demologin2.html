@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images show</title>
+<style>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+body{
+    background-color:rgb(72, 62, 62);
+}
+img:hover{
+    cursor:pointer;
+    border-image-outset: 50px;
+   
+}
+
+</style>
+
+</head>
+<body>
+
+    <div class="row">
+        <div class="column">
+          <img src="images/wallpapersden.com_new-iron-man-art_1360x768.jpg">
+          <img src="images/r.jpg">
+          <img src="images/pngtree-computer-technology-background-template-image_353164.jpg">
+          <img src="images/photo-1550745165-9bc0b252726f.jpeg">
+          <img src="images/ironandcaptain.jpg">
+          <img src="images/images.jpeg">
+          <img src="images/ironman.png">
+        </div>
+        <div class="column">
+          <img src="images/ironman1.jpg">
+          <img src="images/images (9).jpeg">
+          <img src="images/download (1).jpeg">
+          <img src="images/download (2).jpeg">
+          <img src="images/images (3).jpeg">
+          <img src="images/images (4).jpeg">
+        </div>
+        <div class="column">
+          <img src="images/20ef8a75f441e6312b82a19c29eb50f2--technology-background-technology-wallpaper.jpg">
+          <img src="images/865098.jpg">
+          <img src="images/abstract-black-form-hd-wallpaper_3840x2160.jpg">
+          <img src="images/ironandcaptain.jpg">
+          <img src="images/ironman1.jpg">
+          <img src="images/high-resolution-computer-technology-background-1400x1050-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-f7vqa.webp">
+          <img src="images/download (2).jpeg">
+        </div>
+        <div class="column">
+          <img src="images/ironman1.jpg">
+          <img src="images/ironman.png">
+          <img src="images/865098.jpg">
+          <img src="images/abstract-abstraction-air-art.jpg">
+          <img src="images/ironandcaptain.jpg">
+          <img src="images/compound-forms-colorful-wallpaper-1024x768-wallpaper.jpg">
+        </div>
+      </div>
+    
+</body>
+</html>
